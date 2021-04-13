@@ -1,0 +1,63 @@
+
+body{
+    background-image: url(/images/thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color:#fff;
+    background: #00000096;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+    
+}
+body > header > h1{
+    font-size: 25px;
+}
+.left-side{
+    color:#fff;
+    width: fit-content;
+    background: #00000096;
+    padding: 50px;
+    position: absolute;
+    right: 813px;
+    top: 107px;
+}
+#submit{
+    width: 175px;
+}
+#name,#department,#email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#form > fieldset > h1{
+    font-size: 20px;
+}
+footer{
+    color:#fff;
+    text-align: center;
+    position: fixed;
+    right: 600px;
+    bottom: 50px;
+    top: 580px;
+}
+#table , th,td {
+    
+    border: 2px solid #fff;
+}
+
+.right-side{
+    color:#fff;
+    width: fit-content;
+    background: #00000096;
+    position: absolute;
+    top: 181px;
+    right: 213px;
+    padding: 40px;
+}
